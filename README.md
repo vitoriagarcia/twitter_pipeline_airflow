@@ -19,7 +19,7 @@ source .venv/bin/activate
 
 ## 6 Save the credentials in this folder
 
-## 7 Connect it via SSH executing the command that starts with
+## 7 In the AWS Console, click in 'Connect' and run the SSH command that starts with
 ```bash
 ssh -i "your-key-name.pem"
 ```
