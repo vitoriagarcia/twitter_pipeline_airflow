@@ -1,0 +1,3 @@
+sopandas
+s3fs
+tweepy
