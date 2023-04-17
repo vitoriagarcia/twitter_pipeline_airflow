@@ -7,3 +7,6 @@ keys-april-2023.pem
 
 # VS Code
 settings.json
+
+# Others
+__pycache__/
