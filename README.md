@@ -32,7 +32,7 @@ ssh -i "your-key-name.pem"
 ## 8 Install/update the following packages in the EC2
 ```bash
 sudo apt-get update
-sudo apt install puthon3-pip
+sudo apt install python3-pip
 sudo pip install apache-airflow
 sudo pip install pandas
 sudo pip install s3fs
