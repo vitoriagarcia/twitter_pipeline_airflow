@@ -19,14 +19,12 @@ source .venv/bin/activate
 
 ## 6 Save the credentials in this folder
 
-## 7 Connect it via SSH
-
-## 8 Execute the command that starts with
+## 7 Connect it via SSH executing the command that starts with
 ```bash
 ssh -i "your-key-name.pem"
 ```
 
-## 9 Install/update the following packages in the EC2
+## 8 Install/update the following packages in the EC2
 ```bash
 sudo apt-get update
 sudo apt install puthon3-pip
