@@ -19,7 +19,12 @@ source .venv/bin/activate
 
 ## 6 Save the credentials in this folder
 
-## 7 In the AWS Console, click in 'Connect' and run the SSH command that starts with
+## 7 In the AWS Console, click in 'Connect' > SSH Client.
+Run the command that starts with:
+```bash
+chmod 400
+```
+To make sure your private key is protected. Then, connect with the EC2 server running the SSH command that starts with:
 ```bash
 ssh -i "your-key-name.pem"
 ```
