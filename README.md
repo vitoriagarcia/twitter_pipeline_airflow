@@ -61,4 +61,4 @@ airflow/airflow.cfg
 ```
 Contains the correct path to the folder containing your code.
 
-This project was based on the [Darshil Parmar's video]<https://www.youtube.com/watch?v=q8q3OFFfY6c>.
+This project was based on the [Darshil Parmar's video](https://www.youtube.com/watch?v=q8q3OFFfY6c).
