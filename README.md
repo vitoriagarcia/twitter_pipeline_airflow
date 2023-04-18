@@ -1,3 +1,6 @@
+## ETL Cloud-based project that extracts data from Twitter, filter, and store it in a AWS S3 bucket
+This project is hosted in an EC2 instance and orchestrated by Apache Airflow.
+
 ## Architecture:
 
 <img width="1198" alt="Screenshot 2023-04-18 at 14 23 10" src="https://user-images.githubusercontent.com/47197078/232858609-bc284710-7681-40df-a9d3-3217f87ff2b7.png">
@@ -23,7 +26,7 @@ source .venv/bin/activate
 
 ## 6 Save the credentials in this folder
 
-## 7 Create the code that do the operations you want
+## 7 Create the code that does the operations you want
 
 ## 8 In the AWS Console, click in 'Connect' > SSH Client.
 Run the command that starts with:
@@ -56,4 +59,4 @@ airflow standalone
 ```bash
 airflow/airflow.cfg
 ```
-Contains the corrent path to the folder containing your code
+Contains the correct path to the folder containing your code
