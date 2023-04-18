@@ -1,4 +1,4 @@
-## ETL Cloud-based project that extracts data from Twitter, filter, and store it in a AWS S3 bucket
+## ETL Cloud-based project that extracts data from Twitter, filter, and store it in an AWS S3 bucket
 This project is hosted in an EC2 instance and orchestrated by Apache Airflow.
 
 ## Architecture:
