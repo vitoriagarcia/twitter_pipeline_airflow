@@ -1,3 +1,7 @@
+## Architecture:
+
+<img width="1198" alt="Screenshot 2023-04-18 at 14 23 10" src="https://user-images.githubusercontent.com/47197078/232858609-bc284710-7681-40df-a9d3-3217f87ff2b7.png">
+
 ## 1 Create a virtualenv (in this case, called '.venv')
 ```bash
 virtualenv .venv
@@ -37,4 +41,9 @@ sudo pip install apache-airflow
 sudo pip install pandas
 sudo pip install s3fs
 sudo pip install tweepy
+```
+
+## 9 Run the Airflow server
+```bash
+airflow standalone
 ```
